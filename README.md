@@ -42,7 +42,8 @@
 - References: creation order follows resource references (RG → VNet → Subnet → NIC → VM).
 
 ### Quick Start
-
+```hcl
 terraform init
 terraform plan -out=plan.plan
 terraform apply "plan.plan"
+```
