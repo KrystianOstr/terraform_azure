@@ -1,0 +1,49 @@
+# ----------------------------------------
+# Terraform related files
+# ----------------------------------------
+
+# Local .terraform directories
+.terraform/
+
+# Terraform lock file
+# NOTE: You usually WANT to commit this file to ensure
+# consistent provider versions across environments.
+# Uncomment the line below if you prefer to ignore it.
+# .terraform.lock.hcl
+
+# State files (sensitive, should never be committed)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Plan files (can contain sensitive data)
+*.plan
+*.tfplan
+
+# Backup files
+*.backup
+*.tfvars.backup
+
+# Variable files (often contain secrets, use examples instead)
+*.tfvars
+*.tfvars.json
+
+# ----------------------------------------
+# Editor / IDE files
+# ----------------------------------------
+
+# VSCode
+.vscode/
+
+# IntelliJ / IDEA
+.idea/
+
+# Vim swap files
+*.swp
+*.swo
+
+# Logs
+*.log
